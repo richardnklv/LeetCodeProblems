@@ -34,6 +34,10 @@ The solutions in this repository are categorized by problem type, such as "Data 
    - Given an integer array arr, remove a subarray (can be empty) from arr such that the remaining elements in arr are non-decreasing. Return the length of the shortest subarray to remove.
    - I just find the longest sorted part from the left to right, then from right to left, then using to pointers I find the smallest sequence to remove from the middle to get a sorted array.
   
+5. **Find K Closest Elements** - [Solution](https://github.com/richardnklv/LeetCodeProblems/blob/master/src/FindKClosestElement.java)
+   - Given a sorted integer array arr, two integers k and x, return the k closest integers to x in the array. The result should also be sorted in ascending order.
+   - A for loop to find the nearest element to x, then a while loop using two-pointers (left = nearest; right = nearest + 1) I compare the closest k elements to nearest.
+  
 ### Strings or Arrays
 1. **Push Dominoes** - [Solution](https://github.com/richardnklv/LeetCodeProblems/blob/master/src/PushDominoes.java)
    - A physics simulation of dominoes falling either left or right in a String.
