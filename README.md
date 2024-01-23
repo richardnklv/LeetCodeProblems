@@ -26,6 +26,9 @@ The solutions in this repository are categorized by problem type, such as "Data 
         Input: nums = [0,1,0,3,12]
         Output: [1,3,12,0,0]
    - In a for loop I switch the place of each 0, with the closest non-0 element.
+3. **3Sum Closest** - [Solution](https://github.com/richardnklv/LeetCodeProblems/blob/master/src/ThreeSumClosest.java)
+   - Given an array nums and a target, find the sum of 3 ints that are closest to the target.
+   - First I sort the array. Then a for loop through all without the last 2, then a left(i + 1) and right(nums.length - 1) pointer, then a while that checks if the currentSum < closestSum, it also pushes pointers left++, and right--; because the array is sorted, if the currentSum > target, I push the right--; thus the currentSum will get smaller, the same goes for the left, as the list is sorted.
   
 ### Strings or Arrays
 1. **Push Dominoes** - [Solution](https://github.com/richardnklv/LeetCodeProblems/blob/master/src/PushDominoes.java)
