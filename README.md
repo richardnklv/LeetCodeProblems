@@ -30,6 +30,10 @@ The solutions in this repository are categorized by problem type, such as "Data 
    - Given an array nums and a target, find the sum of 3 ints that are closest to the target.
    - First I sort the array. Then a for loop through all without the last 2, then a left(i + 1) and right(nums.length - 1) pointer, then a while that checks if the currentSum < closestSum, it also pushes pointers left++, and right--; because the array is sorted, if the currentSum > target, I push the right--; thus the currentSum will get smaller, the same goes for the left, as the list is sorted.
   
+4. **Shortest Subarray to be Removed to Make the Array Sorted** - [Solution](https://github.com/richardnklv/LeetCodeProblems/blob/master/src/ShortestSubarrayToSortList.java)
+   - Given an integer array arr, remove a subarray (can be empty) from arr such that the remaining elements in arr are non-decreasing. Return the length of the shortest subarray to remove.
+   - I just find the longest sorted part from the left to right, then from right to left, then using to pointers I find the smallest sequence to remove from the middle to get a sorted array.
+  
 ### Strings or Arrays
 1. **Push Dominoes** - [Solution](https://github.com/richardnklv/LeetCodeProblems/blob/master/src/PushDominoes.java)
    - A physics simulation of dominoes falling either left or right in a String.
