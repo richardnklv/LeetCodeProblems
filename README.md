@@ -45,9 +45,9 @@ The solutions in this repository are categorized by problem type, such as "Data 
      that lowers by 1 as each domino goes further away from the "falling to the right" one. Same for the left. Then depending on which forces are stronger the domino will - either fall to the right, left or stay.
      
 #### Linked Lists
-1. **Reverse Linked List** - [Solution](link-to-your-code)
-   - Problem description.
-   - Approach.
+1. **Sort Linked List** - [Solution](https://github.com/richardnklv/LeetCodeProblems/blob/master/src/SortLinkedList.java)
+   - Given the head of a linked list, return the list after sorting it in ascending order.
+   - Merge Sort... Two recursive functions.
 
 ### Algorithms
 ...
