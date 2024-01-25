@@ -38,6 +38,10 @@ The solutions in this repository are categorized by problem type, such as "Data 
    - Given a sorted integer array arr, two integers k and x, return the k closest integers to x in the array. The result should also be sorted in ascending order.
    - A for loop to find the nearest element to x, then a while loop using two-pointers (left = nearest; right = nearest + 1) I compare the closest k elements to nearest.
   
+6. **Sort Colors** - [Solution](https://github.com/richardnklv/LeetCodeProblems/blob/master/src/SortColors.java)
+   - Given an integer array nums[], with three "colors" - 0, 1, 2. Sort it.
+   - I tried using two-pointers left and right for 0's and 1's, got stuck on some edge cases that couldn't solve. Found out there is a Dutch National Flag algorithm. Same thing as my solution, but with 3-pointers.
+  
 ### Strings or Arrays
 1. **Push Dominoes** - [Solution](https://github.com/richardnklv/LeetCodeProblems/blob/master/src/PushDominoes.java)
    - A physics simulation of dominoes falling either left or right in a String.
