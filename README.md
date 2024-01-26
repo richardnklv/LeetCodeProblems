@@ -47,6 +47,10 @@ The solutions in this repository are categorized by problem type, such as "Data 
    - A physics simulation of dominoes falling either left or right in a String.
    - Instead of looping multiple times for each falling domino, I run two loops, the first one takes the first "falling to the right" domino, and for each static domino afterwards it adds an int force
      that lowers by 1 as each domino goes further away from the "falling to the right" one. Same for the left. Then depending on which forces are stronger the domino will - either fall to the right, left or stay.
+
+2. **Is Valid Polindrome II** - [Solution](https://github.com/richardnklv/LeetCodeProblems/blob/master/src/isValidPalindromeII.java)
+   - Check if a String s, could be a polindrome after removing at most one element anywhere.
+   - private isPolindrome method, a while loop with 2 pointers (left and right), then while loop with 2 pointers that when reaches a different character, checks if the rest of the String is a polindrome.
      
 #### Linked Lists
 1. **Sort Linked List** - [Solution](https://github.com/richardnklv/LeetCodeProblems/blob/master/src/SortLinkedList.java)
